@@ -96,11 +96,11 @@ public Properties p;
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass(groups= {"Sanity","Regression","Master"})
-	public void tearDown()
-	{
-		driver.quit();
-	}
+//	@AfterClass(groups= {"Sanity","Regression","Master"})
+//	public void tearDown()
+//	{
+//		driver.quit();
+//	}
 	
 	public String randomeString()
 	{
